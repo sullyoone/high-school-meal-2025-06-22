@@ -1,0 +1,75 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafb;
+  color: #1e293b;
+}
+
+header {
+  background: #1e40af;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #1d4ed8;
+}
+
+#result {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.meal {
+  margin-bottom: 1.5rem;
+}
+.meal h3 {
+  margin: 0 0 0.5rem;
+  color: #0f172a;
+}
+.meal ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.nutrients {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  color: #334155;
+}
+.nutrients span {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 3px 8px;
+  background: #e0f2fe;
+  border-radius: 6px;
+}
